@@ -35,6 +35,14 @@ function studentMsg(totalScores, studentScore) {
 
   const statusMsg = passed ? "You passed the course." : "You failed the course.";
 
+//   let statusMsg;
+// if (passed) {
+//   statusMsg = "You passed the course.";
+// } else {
+//   statusMsg = "You failed the course.";
+// }
+
+
   return "Class average: " + average + ". Your grade: " + grade + ". " + statusMsg;
 }
 
